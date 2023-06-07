@@ -1,13 +1,10 @@
 
 public class Main {
     public static void main(String[] args) {
-//       double result = (double) 10 / (double) 3;
-//        System.out.println(result);
-        int x = 1;
-//        int y = ++x;
-//        x = x + 2;
-//        x+= 2;
+        int x = 10 + 3 * 2;
         System.out.println(x);
-//        System.out.println(y);
+//  Brackets are first
+//  Division and Multiplication are second
+//  Addition and subtract is third
     }
 }
