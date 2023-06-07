@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5932bddb-b275-41dc-b6fd-c3c23a680d9d" name="Changes" comment="Strings">
+    <list default="true" id="5932bddb-b275-41dc-b6fd-c3c23a680d9d" name="Changes" comment="Escape Sequences">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686141233029</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Escape Sequences">
+      <created>1686142166922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686142166922</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +146,7 @@
     <MESSAGE value="Reference Types" />
     <MESSAGE value="Comparison of Primitive and Reference Types" />
     <MESSAGE value="Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strings" />
+    <MESSAGE value="Escape Sequences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escape Sequences" />
   </component>
 </project>
