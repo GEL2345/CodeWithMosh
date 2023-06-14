@@ -1,15 +1,14 @@
 
 public class Main {
     public static void main(String[] args) {
-  int x = 1;
-  int y = 1;
+//    int temperature = 12;
+//    boolean isWarm = temperature > 20 && temperature < 30;
+//        System.out.println(isWarm);
 
-        System.out.println(x == y); // Equal to
-        System.out.println(x != y); // Not Equal to
-        System.out.println(x > y); // Greater than
-        System.out.println(x >= y); // Greater than OR Equal to
-        System.out.println(x < y); // Less than
-        System.out.println(x <= y); // Greater than OR Equal to
+        boolean hasHighIncome = true;
+        boolean hasGoodCredit = true;
+        boolean hasCriminalRecord = false;
+        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
 
     }
 }
