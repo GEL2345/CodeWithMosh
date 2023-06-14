@@ -8,12 +8,13 @@ public class Main {
         while (!input.equals("quit")) {
             System.out.println("Input: ");
             input = scanner.next().toLowerCase();
+            if (!input.equals("quit")) // Style 1
+                System.out.println(input);
+            if (input.equals("pass"))
+                continue;
+            if (input.equals("quit")) // Style 2
+                break;
             System.out.println(input);
         }
-        do {
-            System.out.println("Input: ");
-            input = scanner.next().toLowerCase();
-            System.out.println(input);
-        } while (!input.equals("quit"));
     }
 }
