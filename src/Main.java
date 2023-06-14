@@ -1,28 +1,30 @@
-import java.security.Principal;
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        Principal = Amount being loaned to you - Deposit + Principal = Total Amount
-//        Annual Interest Rate (R) , Duration (Years)
-//        Mortgage = P x by (R(1 + R)N (Power of N)) / ((1 + R)N (Power of N) - 1)
+    final byte MONTHS_IN_YEAR = 12;
+    final byte PERCENT = 100;
 
-//        Ask for Principal (P)
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("How much are you wishing to borrow?: ");
-        long principal = scanner.nextLong();
-//        Ask Annual Interest Rate (R)
-        System.out.print("What is the annual interest rate?: ");
-        float interest = scanner.nextFloat();
-//        Ask for Duration (N * 12 is how many months)
-        System.out.print("How many years will the mortgage be for?: ");
-        int duration = scanner.nextInt();
-        int duration * 12;
+    Scanner scanner = new Scanner(System.in);
 
-//        Math.pow();
-//        P x by (R(1 + R)N (Power of N)) / ((1 + R)N (Power of N) - 1)
-//        Math.pow()
-//        Calculate
+        System.out.print("Principal: ");
+        int principal = scanner.nextInt();
+
+        System.out.print("Annual Interest Rate: ");
+        float annualInterest = scanner.nextFloat();
+        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+
+        System.out.print("Period (Years): ");
+        byte years = scanner.nextByte();
+        int numberOfPayments = years * MONTHS_IN_YEAR;
+
+        double mortgage = principal
+                * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
+                / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
+
+        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
+        System.out.println("Mortgage: " + mortgageFormatted);
 
     }
 }
