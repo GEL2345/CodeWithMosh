@@ -1,15 +1,8 @@
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String input = "";
-        Scanner scanner = new Scanner(System.in);
-
-        while (!input.equals("quit")) {
-            System.out.println("Input: ");
-            input = scanner.next().toLowerCase();
-            System.out.println(input);
-
+       for (int i = 0; i < 5; i++)
+           System.out.println("Hello world " + i);
         }
     }
-}
+
