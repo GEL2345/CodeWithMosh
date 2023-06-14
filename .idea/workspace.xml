@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5932bddb-b275-41dc-b6fd-c3c23a680d9d" name="Changes" comment="Constants">
+    <list default="true" id="5932bddb-b275-41dc-b6fd-c3c23a680d9d" name="Changes" comment="Mortgage exercise attempt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -25,12 +25,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -117,7 +117,49 @@
       <option name="project" value="LOCAL" />
       <updated>1686148268357</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Arithmetic Expressions">
+      <created>1686148986952</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686148986952</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Order of Operations">
+      <created>1686149288412</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686149288412</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Casting">
+      <created>1686150427403</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686150427403</updated>
+    </task>
+    <task id="LOCAL-00015" summary="The Math Class">
+      <created>1686151410690</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686151410690</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Formatting Numbers to Percent and Currency">
+      <created>1686727883371</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686727883371</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Reading Input">
+      <created>1686730055044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686730055044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +213,13 @@
     <MESSAGE value="Arrays" />
     <MESSAGE value="Multi-Dimensional Arrays" />
     <MESSAGE value="Constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constants" />
+    <MESSAGE value="Arithmetic Expressions" />
+    <MESSAGE value="Order of Operations" />
+    <MESSAGE value="Casting" />
+    <MESSAGE value="The Math Class" />
+    <MESSAGE value="Formatting Numbers to Percent and Currency" />
+    <MESSAGE value="Reading Input" />
+    <MESSAGE value="Mortgage exercise attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mortgage exercise attempt" />
   </component>
 </project>
